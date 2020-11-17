@@ -13,7 +13,7 @@ def recipe_search(ingredient, diet, health):
 
 def run():
    ingredient = input('Enter an ingredient: ')
-   diet = input('Enter diet requirement: ')
+   diet = input('Enter diet requirement (balanced/high-protein/ high-fiber/ low-fat/ low-sodium : ')
    health = input('Enter any health requirements: ')
    results = recipe_search(ingredient, diet, health)
 
